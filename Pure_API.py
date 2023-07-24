@@ -7,13 +7,14 @@ import requests
 import json
 import datetime
 import pandas as pd
+from my_settings import key, secret, acc_no
 
 
 if __name__ == '__main__':
 
-    key = "PSeYtwokolD9ulsRdIXGKsFQ7F1zb2zwewhG"
-    secret = "mlkOdZW/KB59fv3mWVzbd43cLext/pHT+XWDP6m1146/MJzudQOQ2oT4B5fKPSX4p5H3eKIWmTkbGoCSRA3PBNuL6Hu/uvkT9LvjJG/Da7fNQG+HRrH6tzxDtfZydK9l6i7CEMc+P551QiCxs1s5a9a26uvFYL5RwUbcfi9lW41s6nyCO0g="
-    acc_no = "69210341-01"
+    key = key
+    secret = secret
+    acc_no = acc_no
 
     APP_KEY = key
     APP_SECRET = secret
